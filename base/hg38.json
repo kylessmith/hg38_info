@@ -1,7 +1,6 @@
 {
 	"name": "hg38",
 	"version": "1",
-    "directory": "https://raw.githubusercontent.com/kylessmith/hg38_info/master/data/",
     "files": {
         "CDS": ["CDSs.parquet","IntervalFrame"],
         "bin_bias_100000": ["bin100000_bias.parquet","IntervalFrame"],
@@ -21,5 +20,8 @@
         "tss": ["tss.parquet","IntervalFrame"],
 		"GTRD_1000sites": ["GTRD_1000sites", "multi_IntervalFrame"],
 		"gene_names": ["gene_names.pickle", "pickle"]
-    }
+    },
+	"external_downloads": {
+		"hg38_2bit": "http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit"
+	}
 }
