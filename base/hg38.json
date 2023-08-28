@@ -1,27 +1,81 @@
 {
-	"name": "hg38",
-	"version": "1",
-    "files": {
-        "CDS": ["CDSs.parquet","IntervalFrame"],
-        "bin_bias_100000": ["bin100000_bias.parquet","IntervalFrame"],
-        "bin_bias_1000000": ["bin1000000_bias.parquet","IntervalFrame"],
-        "blacklist": ["blacklist.parquet","IntervalFrame"],
-        "exon": ["exons.parquet","IntervalFrame"],
-        "five_prime_UTR": ["five_prime_UTRs.parquet","IntervalFrame"],
-        "gene": ["genes.parquet","IntervalFrame"],
-        "pfm": ["JASPAR2022_pfm","pfm"],
-        "repeat": ["repeats.parquet","IntervalFrame"],
-        "snp": ["common_hg38_34k.parquet","IntervalFrame"],
-        "start_codon": ["start_codons.parquet","IntervalFrame"],
-        "stop_codon": ["stop_codons.parquet","IntervalFrame"],
-        "tes": ["tes.parquet","IntervalFrame"],
-        "three_prime_UTR": ["three_prime_UTRs.parquet","IntervalFrame"],
-        "transcript": ["transcripts.parquet","IntervalFrame"],
-        "tss": ["tss.parquet","IntervalFrame"],
-		"GTRD_1000sites": ["GTRD_1000sites", "multi_IntervalFrame"],
-		"gene_names": ["gene_names.pickle", "pickle"]
+    "external_downloads": {
+        "hg38_2bit": "http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit"
     },
-	"external_downloads": {
-		"hg38_2bit": "http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit"
-	}
+    "files": {
+        "CDS": [
+            "CDSs.parquet",
+            "IntervalFrame"
+        ],
+        "GTRD_1000sites": [
+            "GTRD_1000sites",
+            "multi_IntervalFrame"
+        ],
+        "bin_bias_100000": [
+            "bin100000_bias.parquet",
+            "IntervalFrame"
+        ],
+        "bin_bias_1000000": [
+            "bin1000000_bias.parquet",
+            "IntervalFrame"
+        ],
+        "blacklist": [
+            "blacklist.parquet",
+            "IntervalFrame"
+        ],
+        "exon": [
+            "exons.parquet",
+            "IntervalFrame"
+        ],
+        "five_prime_UTR": [
+            "five_prime_UTRs.parquet",
+            "IntervalFrame"
+        ],
+        "gene": [
+            "genes.parquet",
+            "IntervalFrame"
+        ],
+        "gene_names": [
+            "gene_names.pickle",
+            "pickle"
+        ],
+        "pfm": [
+            "JASPAR2022_pfm",
+            "pfm"
+        ],
+        "repeat": [
+            "repeats.parquet",
+            "IntervalFrame"
+        ],
+        "snp": [
+            "common_hg38_34k.parquet",
+            "IntervalFrame"
+        ],
+        "start_codon": [
+            "start_codons.parquet",
+            "IntervalFrame"
+        ],
+        "stop_codon": [
+            "stop_codons.parquet",
+            "IntervalFrame"
+        ],
+        "tes": [
+            "tes.parquet",
+            "IntervalFrame"
+        ],
+        "three_prime_UTR": [
+            "three_prime_UTRs.parquet",
+            "IntervalFrame"
+        ],
+        "transcript": [
+            "transcripts.parquet",
+            "IntervalFrame"
+        ],
+        "tss": [
+            "tss.parquet",
+            "IntervalFrame"
+        ]
+    },
+    "name": "hg38",
+    "version": "1"
 }
