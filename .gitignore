@@ -12,7 +12,6 @@
 *.log
 *.swp
 *.pdb
-*.zip
 .project
 .pydevproject
 .settings
@@ -80,6 +79,7 @@ monkeytype.sqlite3
 .directory
 .gdb_history
 .DS_Store
+*.DS_Store
 ehthumbs.db
 Icon?
 Thumbs.db
@@ -89,10 +89,6 @@ Thumbs.db
 !skts.c
 !np_datetime.c
 !np_datetime_strings.c
-ailist/AIList_core.c
-ailist/array_query_core.c
-ailist/Interval_core.c
-ailist/LabeledIntervalArray_core.c
 
 # Unit / Performance Testing #
 ##############################
